@@ -16,7 +16,9 @@ class AddTaskViewController: UIViewController {
     
     var taskToAdd : String?
     
-    var toDoListItemsArray : NSMutableArray?
+    var toDoListItemsStringArray : NSMutableArray?
+    var toDoListItemsIsCompletedArray : NSMutableArray?
+    var toDoListItemsDateCompletedArray : NSMutableArray?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,8 +34,10 @@ class AddTaskViewController: UIViewController {
             taskToAdd = taskToAddInput.text
             
             if (!(taskToAdd ?? "").isEmpty) {
-                let numTasks = toDoListItemsArray!.count
-                toDoListItemsArray!.insertObject(taskToAdd!, atIndex: numTasks)
+                let numTasks = toDoListItemsStringArray!.count
+                toDoListItemsStringArray!.insertObject(taskToAdd!, atIndex: numTasks)
+                toDoListItemsIsCompletedArray!.insertObject(false, atIndex: numTasks)
+                toDoListItemsDateCompletedArray!.insertObject(NSDate(), atIndex: numTasks)
             }
         }
     }
