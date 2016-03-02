@@ -38,17 +38,17 @@
 
 /* Begin PBXFileReference section */
 		503DC5D81C83AC030073B37F /* DailyStatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyStatsViewController.swift; sourceTree = "<group>"; };
-		509E9D4F1C7FFC5000D179E8 /* ListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		509E9D4F1C7FFC5000D179E8 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		509E9D521C7FFC5000D179E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		509E9D541C7FFC5000D179E8 /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
 		509E9D571C7FFC5000D179E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		509E9D591C7FFC5000D179E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		509E9D5C1C7FFC5000D179E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		509E9D5E1C7FFC5000D179E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		509E9D631C7FFC5000D179E8 /* ListDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		509E9D631C7FFC5000D179E8 /* ToDoList.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoList.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		509E9D671C7FFC5000D179E8 /* ListDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemoTests.swift; sourceTree = "<group>"; };
 		509E9D691C7FFC5000D179E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		509E9D6E1C7FFC5100D179E8 /* ListDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		509E9D6E1C7FFC5100D179E8 /* ToDoList.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoList.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		509E9D721C7FFC5100D179E8 /* ListDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemoUITests.swift; sourceTree = "<group>"; };
 		509E9D741C7FFC5100D179E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		509E9D801C7FFFE400D179E8 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
@@ -93,9 +93,9 @@
 		509E9D501C7FFC5000D179E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				509E9D4F1C7FFC5000D179E8 /* ListDemo.app */,
-				509E9D631C7FFC5000D179E8 /* ListDemo.xctest */,
-				509E9D6E1C7FFC5100D179E8 /* ListDemo.xctest */,
+				509E9D4F1C7FFC5000D179E8 /* ToDoList.app */,
+				509E9D631C7FFC5000D179E8 /* ToDoList.xctest */,
+				509E9D6E1C7FFC5100D179E8 /* ToDoList.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		509E9D4E1C7FFC5000D179E8 /* ListDemo */ = {
+		509E9D4E1C7FFC5000D179E8 /* ToDoList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 509E9D771C7FFC5100D179E8 /* Build configuration list for PBXNativeTarget "ListDemo" */;
+			buildConfigurationList = 509E9D771C7FFC5100D179E8 /* Build configuration list for PBXNativeTarget "ToDoList" */;
 			buildPhases = (
 				509E9D4B1C7FFC5000D179E8 /* Sources */,
 				509E9D4C1C7FFC5000D179E8 /* Frameworks */,
@@ -149,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = ListDemo;
+			name = ToDoList;
 			productName = ListDemo;
-			productReference = 509E9D4F1C7FFC5000D179E8 /* ListDemo.app */;
+			productReference = 509E9D4F1C7FFC5000D179E8 /* ToDoList.app */;
 			productType = "com.apple.product-type.application";
 		};
-		509E9D621C7FFC5000D179E8 /* ListDemoTests */ = {
+		509E9D621C7FFC5000D179E8 /* ToDoListTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 509E9D7A1C7FFC5100D179E8 /* Build configuration list for PBXNativeTarget "ListDemoTests" */;
+			buildConfigurationList = 509E9D7A1C7FFC5100D179E8 /* Build configuration list for PBXNativeTarget "ToDoListTests" */;
 			buildPhases = (
 				509E9D5F1C7FFC5000D179E8 /* Sources */,
 				509E9D601C7FFC5000D179E8 /* Frameworks */,
@@ -167,14 +167,14 @@
 			dependencies = (
 				509E9D651C7FFC5000D179E8 /* PBXTargetDependency */,
 			);
-			name = ListDemoTests;
+			name = ToDoListTests;
 			productName = ListDemoTests;
-			productReference = 509E9D631C7FFC5000D179E8 /* ListDemo.xctest */;
+			productReference = 509E9D631C7FFC5000D179E8 /* ToDoList.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		509E9D6D1C7FFC5100D179E8 /* ListDemoUITests */ = {
+		509E9D6D1C7FFC5100D179E8 /* ToDoListUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 509E9D7D1C7FFC5100D179E8 /* Build configuration list for PBXNativeTarget "ListDemoUITests" */;
+			buildConfigurationList = 509E9D7D1C7FFC5100D179E8 /* Build configuration list for PBXNativeTarget "ToDoListUITests" */;
 			buildPhases = (
 				509E9D6A1C7FFC5100D179E8 /* Sources */,
 				509E9D6B1C7FFC5100D179E8 /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				509E9D701C7FFC5100D179E8 /* PBXTargetDependency */,
 			);
-			name = ListDemoUITests;
+			name = ToDoListUITests;
 			productName = ListDemoUITests;
-			productReference = 509E9D6E1C7FFC5100D179E8 /* ListDemo.xctest */;
+			productReference = 509E9D6E1C7FFC5100D179E8 /* ToDoList.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 509E9D4A1C7FFC5000D179E8 /* Build configuration list for PBXProject "ListDemo" */;
+			buildConfigurationList = 509E9D4A1C7FFC5000D179E8 /* Build configuration list for PBXProject "ToDoList" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				509E9D4E1C7FFC5000D179E8 /* ListDemo */,
-				509E9D621C7FFC5000D179E8 /* ListDemoTests */,
-				509E9D6D1C7FFC5100D179E8 /* ListDemoUITests */,
+				509E9D4E1C7FFC5000D179E8 /* ToDoList */,
+				509E9D621C7FFC5000D179E8 /* ToDoListTests */,
+				509E9D6D1C7FFC5100D179E8 /* ToDoListUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -294,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		509E9D651C7FFC5000D179E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 509E9D4E1C7FFC5000D179E8 /* ListDemo */;
+			target = 509E9D4E1C7FFC5000D179E8 /* ToDoList */;
 			targetProxy = 509E9D641C7FFC5000D179E8 /* PBXContainerItemProxy */;
 		};
 		509E9D701C7FFC5100D179E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 509E9D4E1C7FFC5000D179E8 /* ListDemo */;
+			target = 509E9D4E1C7FFC5000D179E8 /* ToDoList */;
 			targetProxy = 509E9D6F1C7FFC5100D179E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -413,7 +413,7 @@
 				INFOPLIST_FILE = ListDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ListDemo;
-				PRODUCT_NAME = ListDemo;
+				PRODUCT_NAME = ToDoList;
 			};
 			name = Debug;
 		};
@@ -423,7 +423,7 @@
 				INFOPLIST_FILE = ListDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ListDemo;
-				PRODUCT_NAME = ListDemo;
+				PRODUCT_NAME = ToDoList;
 			};
 			name = Release;
 		};
@@ -434,8 +434,8 @@
 				INFOPLIST_FILE = ListDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ListDemoTests;
-				PRODUCT_NAME = ListDemo;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListDemo.app/ListDemo";
+				PRODUCT_NAME = ToDoList;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoList.app/ToDoList";
 			};
 			name = Debug;
 		};
@@ -446,8 +446,8 @@
 				INFOPLIST_FILE = ListDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ListDemoTests;
-				PRODUCT_NAME = ListDemo;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListDemo.app/ListDemo";
+				PRODUCT_NAME = ToDoList;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoList.app/ToDoList";
 			};
 			name = Release;
 		};
@@ -457,7 +457,7 @@
 				INFOPLIST_FILE = ListDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ListDemoUITests;
-				PRODUCT_NAME = ListDemo;
+				PRODUCT_NAME = ToDoList;
 				TEST_TARGET_NAME = ListDemo;
 				USES_XCTRUNNER = YES;
 			};
@@ -469,7 +469,7 @@
 				INFOPLIST_FILE = ListDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ListDemoUITests;
-				PRODUCT_NAME = ListDemo;
+				PRODUCT_NAME = ToDoList;
 				TEST_TARGET_NAME = ListDemo;
 				USES_XCTRUNNER = YES;
 			};
@@ -478,7 +478,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		509E9D4A1C7FFC5000D179E8 /* Build configuration list for PBXProject "ListDemo" */ = {
+		509E9D4A1C7FFC5000D179E8 /* Build configuration list for PBXProject "ToDoList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				509E9D751C7FFC5100D179E8 /* Debug */,
@@ -487,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		509E9D771C7FFC5100D179E8 /* Build configuration list for PBXNativeTarget "ListDemo" */ = {
+		509E9D771C7FFC5100D179E8 /* Build configuration list for PBXNativeTarget "ToDoList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				509E9D781C7FFC5100D179E8 /* Debug */,
@@ -496,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		509E9D7A1C7FFC5100D179E8 /* Build configuration list for PBXNativeTarget "ListDemoTests" */ = {
+		509E9D7A1C7FFC5100D179E8 /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				509E9D7B1C7FFC5100D179E8 /* Debug */,
@@ -505,7 +505,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		509E9D7D1C7FFC5100D179E8 /* Build configuration list for PBXNativeTarget "ListDemoUITests" */ = {
+		509E9D7D1C7FFC5100D179E8 /* Build configuration list for PBXNativeTarget "ToDoListUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				509E9D7E1C7FFC5100D179E8 /* Debug */,
